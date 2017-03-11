@@ -25,6 +25,9 @@ class Solution(object):
                    return [asub,bsub]
 
 #O(1)算法
+"""
+思路：使用dict记录target-nums[i]的值与小标，在这个dict中查找是否后面的nums[i]出现，如果出现说明dict表中的该元素对应的nums[k]与该nums[i]相加等于target
+"""
 class Solution(object):
     def twoSum(self, nums, target):
         if len(nums) <= 1:
