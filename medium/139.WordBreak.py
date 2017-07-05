@@ -1,5 +1,5 @@
 """
-思路：DP f[i]表示s[0:i]是否可以word break
+思路：DP f[i]表示s[0:i)是否可以word break
 """
 
 class Solution(object):
